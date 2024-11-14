@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "opc-ua"
+version = "0.1.0"
+description = "opc_ua server in python to communicate with localhost plc"
+authors = ["Shivanrbn <shivanrbn@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asyncua = "^1.1.5"
+opcua = "^0.98.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
