@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "opc-ua"
+name = "opc_ua"
 version = "0.1.0"
 description = "opc_ua server in python to communicate with localhost plc"
 authors = ["Shivanrbn <shivanrbn@hotmail.com>"]
